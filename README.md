@@ -4,6 +4,7 @@ A collection of ready-to-use general-purpose generators for the next version of 
 # Generators
 * Identity
 Produces a sequence of the given value.
+
 	// Returns 1 infinitely
 	var g1 = Gen.identity(1);
 	
