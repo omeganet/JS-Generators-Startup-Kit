@@ -4,6 +4,7 @@ A collection of ready-to-use general-purpose generators for the next version of 
 # Generators
 ## Identity
 Produces a sequence of the given value.
+
     ```javascript
     // Returns 1 infinitely
     var g1 = Gen.identity(1);
@@ -13,6 +14,7 @@ Produces a sequence of the given value.
 
 ## Sequence
 Produces a sequence of integers.
+
     ```javascript
     // Starts from 0, incremented by 1, infinitely
     var g1 = Gen.sequence();
@@ -24,6 +26,7 @@ Produces a sequence of integers.
 
 ## Map
 Transforms a sequence by a given transformation function.
+
     ```javascript
     // Generates an infinite sequence starting from 0, incremented by 1
     var input = Gen.sequence();
@@ -33,6 +36,7 @@ Transforms a sequence by a given transformation function.
 
 ## Filter
 Filters a sequence by a given filter function.
+
     ```javascript
     // Generates an infinite sequence starting from 0, incremented by 1
     var input = Gen.sequence();
@@ -42,6 +46,7 @@ Filters a sequence by a given filter function.
 
 ## Aggregate
 Combines a list of sequences.
+
     ```javascript
     // Generates an infinite sequence starting from 1, incremented by 1
     var g1 = Gen.sequence(1);
