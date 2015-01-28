@@ -1,5 +1,5 @@
 # JS Generators Startup Kit
-A collection of ready-to-use general-purpose generators for the next version of JavaScript.
+A collection of ready-to-use general-purpose generators for the next version of JavaScript. If you think of any others or if you think there is a smarter way of implementing the current ones, don't hesitate to send me a pull request. :-)
 
 # Generators
 ## Identity
