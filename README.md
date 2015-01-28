@@ -55,3 +55,11 @@ var g2 = Gen.sequence(-1, -1);
 // Generates an infinite sequence switching between g1 and g2, f.x. 1, -1, 2, -2, ...
 var g3 = Gen.aggregate(g1, g2);
 ```
+
+# Install
+The following will install the necessary modules and will start a local server at [http://127.0.0.1:8888]([http://127.0.0.1:8888/index.html])
+
+```
+npm install
+gulp build serve
+```
