@@ -2,12 +2,11 @@
 A collection of ready-to-use general-purpose generators for the next version of JavaScript.
 
 # Generators
-* Identity
+## Identity
 Produces a sequence of the given value.
 
     // Returns 1 infinitely
     var g1 = Gen.identity(1);
-	
     // Returns 'Hello' 5 times
     var g2 = Gen.identity('Hello', 5);
 
